@@ -1,0 +1,47 @@
+\begin{table*}
+\small
+\centering
+ \setlength{\tabcolsep}{1em}
+\begin{tabular}{lccccccccc}
+\toprule
+{} &           en-cs &           en-de &           en-ru &           en-ta &           en-zh &     en-iu\_full &     en-iu\_news &            en-ja &           en-pl \\
+{} &              10 &              11 &              11 &              11 &              9  &              12 &              12 &               8  &              8  \\
+\midrule
+\metric{BAQ\_dyn}          &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &           0.904 &              $-$ &             $-$ \\
+\metric{BAQ\_static}       &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &           0.958 &              $-$ &             $-$ \\
+\metric{BLEU}              &           0.390 &           0.825 &           0.945 &  \textbf{0.743} &  \textbf{0.980} &           0.829 &           0.928 &            0.131 &  \textbf{0.111} \\
+\metric{BLEURT-extended}   &           0.960 &  \textbf{0.870} &           0.944 &  \textbf{0.828} &  \textbf{0.980} &           0.814 &           0.928 &   \textbf{0.122} &  \textbf{0.155} \\
+\metric{bleurt-Yisi-combi} &             $-$ &           0.868 &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &              $-$ &             $-$ \\
+\metric{CharacTER}         &           0.269 &  \textbf{0.868} &           0.951 &  \textbf{0.726} &           0.961 &           0.851 &           0.905 &            0.008 &  \textbf{0.121} \\
+\metric{chrF}              &           0.313 &  \textbf{0.862} &           0.951 &  \textbf{0.793} &  \textbf{0.982} &  \textbf{0.890} &           0.923 &   \textbf{0.122} &  \textbf{0.091} \\
+\metric{chrF++}            &           0.349 &  \textbf{0.850} &           0.952 &  \textbf{0.783} &  \textbf{0.983} &  \textbf{0.880} &           0.878 &            0.128 &  \textbf{0.098} \\
+\metric{COMET}             &           0.926 &  \textbf{0.863} &           0.974 &  \textbf{0.800} &           0.925 &           0.798 &           0.007 &            0.028 &           0.152 \\
+\metric{COMET-2R}          &           0.942 &  \textbf{0.869} &           0.986 &  \textbf{0.803} &           0.872 &           0.852 &          -0.066 &           -0.008 &  \textbf{0.177} \\
+\metric{COMET-HTER}        &           0.917 &  \textbf{0.852} &           0.989 &  \textbf{0.763} &           0.803 &           0.681 &          -0.073 &            0.142 &           0.092 \\
+\metric{COMET-MQM}         &           0.910 &           0.840 &           0.974 &  \textbf{0.766} &           0.788 &           0.641 &           0.084 &            0.129 &           0.172 \\
+\metric{COMET-QE}          &           0.974 &           0.831 &           0.953 &  \textbf{0.804} &           0.807 &           0.622 &           0.375 &   \textbf{0.578} &  \textbf{0.651} \\
+\metric{COMET-Rank}        &           0.868 &  \textbf{0.860} &           0.931 &  \textbf{0.760} &           0.676 &           0.511 &           0.540 &            0.099 &  \textbf{0.252} \\
+\metric{EED}               &           0.271 &  \textbf{0.869} &           0.955 &  \textbf{0.789} &  \textbf{0.980} &  \textbf{0.913} &           0.928 &            0.043 &  \textbf{0.122} \\
+\metric{EQ\_dyn}           &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &           0.948 &              $-$ &             $-$ \\
+\metric{EQ\_static}        &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &  \textbf{0.976} &              $-$ &             $-$ \\
+\metric{esim}              &           0.575 &  \textbf{0.894} &           0.993 &           0.698 &  \textbf{0.967} &           0.833 &           0.972 &   \textbf{0.365} &           0.418 \\
+\metric{HUMAN\_RAW}        &  \textbf{0.998} &  \textbf{0.932} &  \textbf{0.999} &  \textbf{0.906} &  \textbf{0.942} &  \textbf{0.928} &  \textbf{0.987} &   \textbf{0.371} &  \textbf{0.371} \\
+\metric{mBERT-L2}          &           0.782 &  \textbf{0.861} &           0.977 &  \textbf{0.775} &           0.946 &           0.834 &           0.934 &              $-$ &             $-$ \\
+\metric{MEE}               &           0.495 &           0.820 &             $-$ &  \textbf{0.733} &           0.724 &           0.861 &             $-$ &            0.094 &  \textbf{0.113} \\
+\metric{OpenKiwi-Bert}     &           0.830 &  \textbf{0.829} &           0.363 &           0.450 &           0.834 &           0.370 &           0.551 &           -0.602 &  \textbf{0.194} \\
+\metric{OpenKiwi-XLMR}     &           0.911 &           0.814 &           0.992 &           0.638 &           0.875 &           0.676 &          -0.010 &           -0.668 &          -0.358 \\
+\metric{parbleu}           &           0.543 &           0.774 &           0.869 &  \textbf{0.760} &  \textbf{0.959} &  \textbf{0.849} &           0.962 &   \textbf{0.464} &  \textbf{0.306} \\
+\metric{parchrf++}         &           0.438 &  \textbf{0.845} &           0.955 &  \textbf{0.818} &  \textbf{0.975} &             $-$ &           0.948 &              $-$ &             $-$ \\
+\metric{paresim-1}         &           0.635 &  \textbf{0.886} &           0.989 &           0.705 &  \textbf{0.964} &           0.833 &  \textbf{0.983} &   \textbf{0.365} &           0.418 \\
+\metric{prism}             &           0.805 &  \textbf{0.851} &           0.932 &  \textbf{0.742} &           0.724 &           0.452 &           0.221 &  \textbf{-0.043} &  \textbf{0.088} \\
+\metric{sentBLEU}          &           0.436 &           0.823 &           0.946 &  \textbf{0.772} &  \textbf{0.981} &           0.852 &           0.927 &            0.047 &  \textbf{0.172} \\
+\metric{TER}               &           0.339 &  \textbf{0.848} &           0.297 &           0.553 &           0.064 &  \textbf{0.883} &          -0.213 &   \textbf{0.133} &  \textbf{0.083} \\
+\metric{YiSi-0}            &           0.270 &  \textbf{0.889} &           0.967 &  \textbf{0.783} &  \textbf{0.971} &  \textbf{0.897} &           0.362 &            0.015 &  \textbf{0.095} \\
+\metric{YiSi-1}            &           0.664 &  \textbf{0.887} &           0.969 &  \textbf{0.714} &           0.926 &  \textbf{0.909} &           0.959 &           -0.217 &          -0.014 \\
+\metric{YiSi-2}            &           0.353 &           0.552 &           0.854 &          -0.107 &           0.584 &  \textbf{0.923} &          -0.215 &  \textbf{-0.257} &  \textbf{0.065} \\
+\metric{Yisi-combi}        &             $-$ &           0.868 &             $-$ &             $-$ &             $-$ &             $-$ &             $-$ &              $-$ &             $-$ \\
+\bottomrule
+\end{tabular}
+\caption{ }
+\label{tbl-DA-Pearson-MTexcloutl-exclhuman-ento}
+\end{table*}

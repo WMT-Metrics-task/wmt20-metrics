@@ -1,0 +1,8 @@
+DA:
+ad-*-scores are the scores suppplied by newstest organisers
+
+metrics-ad-*-scores are processed scores specifically for metrics task, using code in files xxx
+
+metrics-ad-doc-scores-* are average scores of the segments in each document. The header has a column called SEGID to be compatible with the scripts for segment level DA, but it contains document ids. 
+
+ad-wilcox-* are the significance tests for each pair of MT systems

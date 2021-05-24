@@ -36,7 +36,7 @@ def escape_latex(row):
 
 def write_latex_table(tbl, filename):
     tbl.index = [f"\metric{{{val}}}" for val in escape_latex(tbl.index)]
-    tbl.columns.set_levels([val for val in escape_latex(tbl.columns.get_level_values(0))], level=0, inplace=True)
+    #tbl.columns.set_levels([val for val in escape_latex(tbl.columns.get_level_values(0))], level=0, inplace=True)
     fmt ="".join(['l'] + ['c' for _ in tbl.columns.get_level_values(1)])
     tbl = tbl.replace('-', '$-$') 
     label = filename.split('.')[0].split('-')[-1]
